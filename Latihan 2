@@ -1,0 +1,13 @@
+class handphone:
+    def __init__(self, merk, series):
+        self.merk = merk
+        self.series = series
+
+    def info_handphone(self):
+        print(f"handphone {self.merk} series {self.series}")
+
+handphone_pertama = handphone("Iphone", "7+")
+handphone_kedua = handphone("Samsung", "S10")
+
+handphone_pertama.info_handphone()
+handphone_kedua.info_handphone()
